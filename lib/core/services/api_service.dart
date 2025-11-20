@@ -7,7 +7,7 @@ class ApiService {
   final FlutterSecureStorage _storage = const FlutterSecureStorage();
 
   // Для Android эмулятора:
-  static const String baseUrl = 'http://localhost:3000';
+  static const String baseUrl = 'https://autosalon-backend.onrender.com';
   // Для браузера: static const String baseUrl = 'http://localhost:3000';
 
   // Конструктор без параметров
